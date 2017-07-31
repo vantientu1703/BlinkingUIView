@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C3F2501F830E8AACDC897AE9B101DA9CEBA89EEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "999090D0E69C0A81FBAC9D67D3E1051592A24F51" : 9223372036854775807,
+    "C3F2501F830E8AACDC897AE9B101DA9CEBA89EEF" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "2BB25650-645C-4CCE-B239-D78D65049598",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "999090D0E69C0A81FBAC9D67D3E1051592A24F51" : "TestFrameWork\/",
+    "C3F2501F830E8AACDC897AE9B101DA9CEBA89EEF" : "BlinkingUIView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BlinkingUIView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/BlinkingUIView.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vantientu1703\/TestFramwork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "999090D0E69C0A81FBAC9D67D3E1051592A24F51"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vantientu1703\/BlinkingUIView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C3F2501F830E8AACDC897AE9B101DA9CEBA89EEF"
+    }
+  ]
+}

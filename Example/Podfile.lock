@@ -1,0 +1,16 @@
+PODS:
+  - BlinkingUIView (0.1.0)
+
+DEPENDENCIES:
+  - BlinkingUIView (from `../`)
+
+EXTERNAL SOURCES:
+  BlinkingUIView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlinkingUIView: 3e07d4a6ebf6998645a4713b0113dbb731cf29bc
+
+PODFILE CHECKSUM: ae0926df51bdd8fcc2bada69e07f420f37540c40
+
+COCOAPODS: 1.2.0

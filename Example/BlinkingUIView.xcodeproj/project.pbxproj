@@ -28,8 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E4EF21F80AB97DF4CCF9D9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2F2A4F9D4A725AF964B65F1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E4EF21F80AB97DF4CCF9D9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2F2A4F9D4A725AF964B65F1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45C40A4F327CAEC28C398540 /* Pods-BlinkingUIView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkingUIView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkingUIView_Tests/Pods-BlinkingUIView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BlinkingUIView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkingUIView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,11 +42,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7D42C0CDFAEAB5882F0BF459 /* Pods-BlinkingUIView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkingUIView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkingUIView_Tests/Pods-BlinkingUIView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9B1505860310E9D5AD1F1BCA /* BlinkingUIView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BlinkingUIView.podspec; path = ../BlinkingUIView.podspec; sourceTree = "<group>"; };
+		9B1505860310E9D5AD1F1BCA /* BlinkingUIView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BlinkingUIView.podspec; path = ../BlinkingUIView.podspec; sourceTree = "<group>"; };
 		9E30B5C09EDACC5C37458220 /* Pods-BlinkingUIView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkingUIView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkingUIView_Example/Pods-BlinkingUIView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A37DC3BF5418663860FE70D6 /* Pods_BlinkingUIView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkingUIView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C75CF4FB17D723A01867E61D /* Pods-BlinkingUIView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkingUIView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlinkingUIView_Example/Pods-BlinkingUIView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C994F0EB61E25F19E14040E3 /* Pods_BlinkingUIView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkingUIView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAF55BC1F2EE58B00BAC6FD /* BlinkingUIView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BlinkingUIView.framework; path = "../../../Library/Developer/Xcode/DerivedData/BlinkingUIView-gbejxorsqdygxhgszgldzzzinoxe/Build/Products/Debug-iphonesimulator/BlinkingUIView/BlinkingUIView.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +73,7 @@
 		02FD654501B6E45C23DD84EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBAF55BC1F2EE58B00BAC6FD /* BlinkingUIView.framework */,
 				C994F0EB61E25F19E14040E3 /* Pods_BlinkingUIView_Example.framework */,
 				A37DC3BF5418663860FE70D6 /* Pods_BlinkingUIView_Tests.framework */,
 			);
@@ -443,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +485,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -497,6 +499,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlinkingUIView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = BlinkingUIView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
