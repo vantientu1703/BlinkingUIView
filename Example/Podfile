@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BlinkingUIView_Example' do
+  pod 'BlinkingUIView', :path => '../'
+
+  target 'BlinkingUIView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
