@@ -1,0 +1,6 @@
+framework module BlinkingUIView {
+  umbrella header "BlinkingUIView-umbrella.h"
+
+  export *
+  module * { export * }
+}

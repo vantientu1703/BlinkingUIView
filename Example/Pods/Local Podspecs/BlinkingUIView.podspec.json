@@ -1,0 +1,22 @@
+{
+  "name": "BlinkingUIView",
+  "version": "0.1.0",
+  "summary": "A short description of BlinkingUIView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/vantientu1703/BlinkingUIView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "vantientu1703": "vantientu@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/vantientu1703/BlinkingUIView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BlinkingUIView/Classes/**/*"
+}
